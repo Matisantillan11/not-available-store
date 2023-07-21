@@ -1,8 +1,14 @@
 {
   "name": "not-available-store",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "author": {
+    "name" : "Matias Santillan",
+    "email" : "matias1.santillan@gmail.com",
+    "url" : "https://github.com/Matisantillan11"
+  },
+  "homepage": "https://github.com/Matisantillan11/not-available-store",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
