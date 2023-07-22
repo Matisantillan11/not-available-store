@@ -1,0 +1,29 @@
+{
+	"common": {
+		"header": {
+			"items": {
+				"collection": "Collections",
+				"new-arrivals": "New Arrivals",
+				"shop": "Shop"
+			},
+			"popovers": {
+				"collection": {
+					"first": {
+						"title": "First Drop"
+					}
+				},
+				"shop": {
+					"first": {
+						"title": "Hoddies"
+					},
+					"second": {
+						"title": "T-Shirts"
+					},
+					"third": {
+						"title": "Shorts"
+					}
+				}
+			}
+		}
+	}
+}

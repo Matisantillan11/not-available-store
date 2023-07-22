@@ -1,5 +1,6 @@
-import { useState } from 'react'
 import './styles/hamburguer.style.css'
+
+import { useState } from 'react'
 export const Hamburguer = () => {
   const [ isOpen, setIsOpen ] = useState<boolean>(false)
   return (

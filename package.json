@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "author": {
-    "name" : "Matias Santillan",
-    "email" : "matias1.santillan@gmail.com",
-    "url" : "https://github.com/Matisantillan11"
+    "name": "Matias Santillan",
+    "email": "matias1.santillan@gmail.com",
+    "url": "https://github.com/Matisantillan11"
   },
   "homepage": "https://github.com/Matisantillan11/not-available-store",
   "scripts": {
@@ -17,9 +17,12 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "i18n": "^0.15.1",
+    "i18next": "^23.2.11",
     "postcss": "^8.4.27",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2"
   },
   "devDependencies": {
     "@headlessui/react": "^1.7.15",
