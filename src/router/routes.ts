@@ -1,3 +1,6 @@
 export const ROUTES = {
-	DASHBOARD: '/',
+	DASHBOARD: {
+		MAIN: '/',
+		DETAIL: '/:id',
+	},
 }
