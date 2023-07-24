@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .search {
-	@apply w-full h-[25px] lg:h-[35px] rounded-[18px] border-[1px] border-grey-grey50 border-solid mr-[14px] lg:mr-[24px] max-w-[1450px] py-[14px] px-[25px] text-grey-grey50 focus:outline-none;
+	@apply w-full h-[25px] lg:h-[35px] rounded-[18px] border-[1px] border-grey-grey50 border-solid mr-[14px] lg:mr-[24px] max-w-[1150px] py-[14px] px-[25px] text-grey-grey50 focus:outline-none;
 }
 
 .search-icon {
