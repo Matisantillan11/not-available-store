@@ -1,7 +1,4 @@
-import './styles/particle-style.css'
-
-import type { Container, Engine } from 'tsparticles-engine'
-
+import type { Engine } from 'tsparticles-engine'
 import Particles from 'react-particles'
 import { loadSlim } from 'tsparticles-slim'
 import { particleConfig } from './particle-config'
