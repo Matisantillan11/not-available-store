@@ -3,48 +3,43 @@
 @tailwind utilities;
 
 .hamburguer {
-  @apply lg:hidden w-[25px] h-[65px] flex flex-col justify-center items-center;
+	@apply bg-[#A25FE3] lg:hidden w-[45px] h-[45px] rounded-full flex flex-col justify-center items-center;
 
-  .stick {
-    @apply w-[25px] h-[3px] bg-primary-black mt-[4px] rounded-full;
-  }
+	.stick {
+		@apply w-[25px] h-[3px] bg-primary-white mt-[4px] rounded-full;
+	}
 
-  .open{
-    &:first-child {
-      transform: rotate(-45deg) translateY(10px);
-      transition-duration: 1.5s;
-    }
+	.open {
+		&:first-child {
+			transform: rotate(-45deg) translateY(0.5px) translateX(-0.5px);
+			transition-duration: 1.5s;
+		}
 
-    &:nth-child(2){
-      transform: translateX(-200%);
-      transition-duration: .5s;
-    }
+		&:nth-child(2) {
+			transform: translateX(-200%);
+			transition-duration: 0.5s;
+		}
 
-    &:last-child{
-      transform: rotate(45deg) translateY(-10px);
-      transition-duration: 1.5s;
-    }
-  }
+		&:last-child {
+			transform: rotate(45deg) translateY(-8px) translateX(-10px);
+			transition-duration: 1.5s;
+		}
+	}
 
-  .close{
-    &:first-child {
-      transform: rotate(0deg) translateY(0px);
-      transition-duration: 1.5s;
+	.close {
+		&:first-child {
+			transform: rotate(0deg) translateY(0px);
+			transition-duration: 1.5s;
+		}
 
-    }
+		&:nth-child(2) {
+			transform: translateX(0%);
+			transition-duration: 0.5s;
+		}
 
-    &:nth-child(2){
-      transform: translateX(0%);
-      transition-duration: .5s;
-    }
-
-    &:last-child{
-      transform: rotate(0deg) translateY(0px);
-      transition-duration: 1.5s;
-    }
-  }
-
-  
+		&:last-child {
+			transform: rotate(0deg) translateY(0px);
+			transition-duration: 1.5s;
+		}
+	}
 }
-
-

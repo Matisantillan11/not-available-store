@@ -35,12 +35,12 @@ export const HeaderList = () => {
 	]
 
 	return (
-		<ul className='hidden lg:h-full lg:flex lg:justify-center lg:items-center'>
-			<li className='font-bold mr-5 hover:pointer'>
+		<ul className='hidden lg:h-full  lg:flex lg:justify-center lg:items-center'>
+			<li className='font-bold text-[20px] text-primary-white mr-5 hover:pointer'>
 				<HeaderPopOver popoverList={drops} title={t('header.items.collection')} />
 			</li>
-			<li className='font-bold mr-5 hover:pointer'>{t('header.items.new-arrivals')}</li>
-			<li className='font-bold mr-5 hover:pointer'>
+			<li className='font-bold text-[20px] text-primary-white mr-5 hover:pointer'>{t('header.items.new-arrivals')}</li>
+			<li className='font-bold text-[20px] text-primary-white mr-5 hover:pointer'>
 				<HeaderPopOver popoverList={shop} title={t('header.items.shop')} />
 			</li>
 		</ul>

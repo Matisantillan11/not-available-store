@@ -13,7 +13,7 @@ export const HeaderPopOver: FC<IHeaderPopover> = ({ title, popoverList }) => {
 						{title}
 						<ChevronDownIcon
 							className={`${open ? 'rotate-180 transform' : 'text-opacity-70'}
-                  ml-2 h-5 w-5 text-primary-black transition duration-150 ease-in-out group-hover:text-opacity-80`}
+                  ml-2 h-5 w-5 text-primary-white transition duration-150 ease-in-out group-hover:text-opacity-80`}
 							aria-hidden='true'
 						/>
 					</Popover.Button>
