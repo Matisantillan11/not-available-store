@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hamburguer {
-	@apply bg-[#A25FE3] lg:hidden w-[45px] h-[45px] rounded-full flex flex-col justify-center items-center;
+	@apply bg-[#] lg:hidden w-[45px] h-[45px] rounded-full flex flex-col justify-center items-center;
 
 	.stick {
 		@apply w-[25px] h-[3px] bg-primary-white mt-[4px] rounded-full;

@@ -3,7 +3,7 @@ import { IOptions, RecursivePartial } from 'tsparticles-engine'
 export const particleConfig: RecursivePartial<IOptions> = {
 	background: {
 		color: {
-			value: '#323031',
+			value: '#121212',
 		},
 		position: 'relative',
 	},
@@ -76,7 +76,7 @@ export const particleConfig: RecursivePartial<IOptions> = {
 				},
 			},
 			enable: false,
-			maxSpeed: 50,
+			maxSpeed: 10,
 			mode: 'bounce',
 			overlap: {
 				enable: true,
@@ -167,7 +167,7 @@ export const particleConfig: RecursivePartial<IOptions> = {
 			},
 			random: false,
 			size: false,
-			speed: 5,
+			speed: 3,
 			spin: {
 				acceleration: 0,
 				enable: false,
@@ -188,7 +188,7 @@ export const particleConfig: RecursivePartial<IOptions> = {
 				height: 1080,
 			},
 			limit: 0,
-			value: 200,
+			value: 350,
 		},
 		opacity: {
 			random: {

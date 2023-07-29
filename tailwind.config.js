@@ -15,6 +15,9 @@ export default {
 				green: {
 					green100: '#253E3B',
 				},
+				purple: {
+					main: '#A25FE3',
+				},
 			},
 		},
 	},
