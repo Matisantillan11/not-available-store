@@ -93,7 +93,7 @@ export default function RootLayout({
 						</span>
 					</button>
 				</div>
-				<main className='flex min-h-screen flex-col items-center justify-between p-24 overflow-x-hidden'>
+				<main className='flex min-h-screen flex-col items-center justify-between pt-20 overflow-x-hidden'>
 					{children}
 				</main>
 			</body>
